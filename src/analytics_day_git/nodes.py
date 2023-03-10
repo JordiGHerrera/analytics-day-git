@@ -21,6 +21,6 @@ def filter_data(
         Filtered dataset.
     """
 
-    data_filtered = data.query("species == 'versicolor'")
+    data_filtered = data.query("species == 'setosa'")
 
     return data_filtered
